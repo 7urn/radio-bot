@@ -17,13 +17,10 @@ module.exports = {
 
   nodes: [
     {
-        name: "Server",
-        host: "nodev4.fypmoon.org",
-        port: 1118,
-        password: "fypmoon.org",
-        reconnectTimeout: 5000,
-        reconnectTries: Infinity,
-        secure: false
+        Host : lava-all.ajieblogs.eu.org
+        Port : 80
+        Password : "https://dsc.gg/ajidevserver"
+        Secure : false 
     },
  ]
 }
