@@ -17,10 +17,10 @@ module.exports = {
 
   nodes: [
     {
-       Host : v4.lavalink.rocks
-       Port : 443
-       Password : "horizxon.tech"
-       Secure : true
+      Host : lavalink-v4.huntools-bot.xyz
+      Port : 443
+      Password : "youshallnotpass"
+      Secure : true
     },
  ]
 }
