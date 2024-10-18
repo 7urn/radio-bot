@@ -15,12 +15,16 @@ module.exports = {
 
    // Lavalink Server Details
 
-  nodes: [
+        nodes: [
     {
-        Host : lavalink.clxud.dev
-        Port : 2333
-        Password : "youshallnotpass"
-        Secure : false
+        name: "Server",
+        host: "lavalink.clxud.dev",
+        port: 2333,
+        password: "youshallnotpass",
+        reconnectTimeout: 5000,
+        reconnectTries: Infinity,
+        secure: false
+
     },
  ]
 }
