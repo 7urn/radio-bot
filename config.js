@@ -17,10 +17,13 @@ module.exports = {
 
   nodes: [
     {
-      Host : lavalink-v4.huntools-bot.xyz
-      Port : 443
-      Password : "youshallnotpass"
-      Secure : true
+        name: "Server",
+        host: "nodev4.fypmoon.org",
+        port: 1118,
+        password: "fypmoon.org",
+        reconnectTimeout: 5000,
+        reconnectTries: Infinity,
+        secure: false
     },
  ]
 }
