@@ -17,10 +17,10 @@ module.exports = {
 
   nodes: [
     {
-        Host : lava-all.ajieblogs.eu.org
-        Port : 80
-        Password : "https://dsc.gg/ajidevserver"
-        Secure : false 
+        Host : lavalink.clxud.dev
+        Port : 2333
+        Password : "youshallnotpass"
+        Secure : false
     },
  ]
 }
